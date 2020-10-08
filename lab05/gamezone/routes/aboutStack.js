@@ -1,21 +1,24 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack';
 
-import Header from '../shared/header';
 import About from '../screens/about';
+import Header from '../shared/header';
 
 const Stack = createStackNavigator();
 
-export default function AboutStack( {navigation} ) {
-    return (
-        <Stack.Navigator>
-            <Stack.Screen
-                name="About"
-                component={About}
-                options={{
-                    headerLeft: () =>  <Header navigation={navigation} />
-                }}
-            />
-        </Stack.Navigator>
-    );
+export default function AboutStack() {
+  return (
+    <Stack.Navigator initialRouteName="Home" screenOptions={{ headerStyle: { backgroundColor: '#ddd' } }}>
+      <Stack.Screen
+        name="About"
+        component={About}
+        options={({ navigation }) => ({
+          title: 'About Gamezone',
+          headerTitle: () => (
+            <Header navigation={navigation} title='About Gamezone' />
+          ),
+        })}
+      />
+    </Stack.Navigator>
+  )
 };
