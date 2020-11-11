@@ -8,13 +8,13 @@
   "engines": {
     "node": "12.x"
   },
-  "main": "monopolyService.js",
   "scripts": {
     "start": "node monopolyService.js",
     "start-direct": "node monopolyDirect.js"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "pg": "^8.4.2",
     "pg-promise": "^10.5.7"
   }
 }
