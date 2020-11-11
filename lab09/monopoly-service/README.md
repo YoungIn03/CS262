@@ -3,6 +3,18 @@
 This is the data service application for the 
 [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project),
  which is deployed here:
+ https://stormy-thicket-42453.herokuapp.com/
+ 
+ https://stormy-thicket-42453.herokuapp.com/players
+ 
+ https://stormy-thicket-42453.herokuapp.com/players/1
+ 
+ https://stormy-thicket-42453.herokuapp.com/players/-1
+ 
+ https://stormy-thicket-42453.herokuapp.com/players/blob
+ 
+ 
+ 
           
 - <https://cs262-monopoly-service.herokuapp.com/>
 
