@@ -1,0 +1,4 @@
+For this lab, I used prettier to format the modules and checked the header.js and card.js files
+For me, the prettier code formatter didn't come to me as a significant change so I didn't change 
+the code since I was used to the original. 
+Prettier had to be installed in VS code as an exgitension 
